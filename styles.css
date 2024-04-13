@@ -1,0 +1,44 @@
+body {
+    margin: 200px;
+  font-family: "Hachi Maru Pop";;
+}
+
+.avatar {
+    width: 240px;
+    margin-right: 50px; /* Adjust this margin as needed */
+    border-radius: 50%;
+    border: 5px solid #68d8d6;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 150px; /* Changed padding for better spacing */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #b8b8ff;
+    color: #f8f9fb;
+    border-bottom: 6px solid #bfd7ff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 #202020;
+    border-top: 6px solid #bfd7ff;
+    /* Animations */
+    animation: fadeIn 1s;
+    animation-fill-mode: both;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+.border-blue {
+    border: 1px dotted blue;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
